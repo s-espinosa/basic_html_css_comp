@@ -1,0 +1,116 @@
+/* BASIC STYLES */
+body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #888;
+}
+
+/* NAV STYLING */
+
+nav {
+  background-color: red;
+}
+
+nav h1 {
+  color: #900;
+  float: left;
+  padding: 10px 20px;
+}
+
+.nav-buttons {
+  float: right;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: pink;
+}
+
+/* MAIN CONTENT */
+main {
+  overflow: hidden;
+}
+
+/* Sidebar */
+
+aside {
+  float: left;
+  background-color: green;
+  text-align: center;
+  width: 25%;
+  margin-bottom: -1000px;
+  padding-bottom: 1000px;
+}
+
+aside a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 0;
+  width: 100%
+}
+
+aside a:hover {
+  background-color: orange;
+}
+
+/* Content Section  */
+
+.primary-content {
+  float: right;
+  display: inline-block;
+  width: 65%;
+  padding: 20px 5%;
+  background-color: white;
+  margin-bottom: -1000px;
+  padding-bottom: 1000px;
+}
+
+.primary-content p {
+  margin: 20px 0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: orange;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.social-logo {
+  display: inline-block;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+}
